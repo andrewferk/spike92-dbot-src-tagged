@@ -1,0 +1,10 @@
+# revision 1
+name: noop
+on:
+  workflow_call:
+permissions: {}
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "revision 1"
