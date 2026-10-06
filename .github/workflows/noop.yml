@@ -1,4 +1,4 @@
-# revision 1
+# revision 2
 name: noop
 on:
   workflow_call:
@@ -7,4 +7,4 @@ jobs:
   noop:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "revision 1"
+      - run: echo "revision 2"
